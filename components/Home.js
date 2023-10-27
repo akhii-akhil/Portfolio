@@ -15,9 +15,12 @@ const Home = ({ blog }) => {
         <meta content="" name="keywords" />
       </Head>
 
-      <link href="http://localhost:3000/assets/img/favicon.png" rel="icon" />
       <link
-        href="http://localhost:3000/assets/img/apple-touch-icon.png"
+        href="https://portfolio-one-omega-48.vercel.app/assets/img/favicon.png"
+        rel="icon"
+      />
+      <link
+        href="https://portfolio-one-omega-48.vercel.app/assets/img/apple-touch-icon.png"
         rel="apple-touch-icon"
       />
 
@@ -26,32 +29,32 @@ const Home = ({ blog }) => {
         rel="stylesheet"
       />
       <link
-        href="http://localhost:3000/assets/vendor/aos/aos.css"
+        href="https://portfolio-one-omega-48.vercel.app/assets/vendor/aos/aos.css"
         rel="stylesheet"
       />
       <link
-        href="http://localhost:3000/assets/vendor/bootstrap/css/bootstrap.min.css"
+        href="https://portfolio-one-omega-48.vercel.app/assets/vendor/bootstrap/css/bootstrap.min.css"
         rel="stylesheet"
       />
       <link
-        href="http://localhost:3000/assets/vendor/bootstrap-icons/bootstrap-icons.css"
+        href="https://portfolio-one-omega-48.vercel.app/assets/vendor/bootstrap-icons/bootstrap-icons.css"
         rel="stylesheet"
       />
       <link
-        href="http://localhost:3000/assets/vendor/boxicons/css/boxicons.min.css"
+        href="https://portfolio-one-omega-48.vercel.app/assets/vendor/boxicons/css/boxicons.min.css"
         rel="stylesheet"
       />
       <link
-        href="http://localhost:3000/assets/vendor/glightbox/css/glightbox.min.css"
+        href="https://portfolio-one-omega-48.vercel.app/assets/vendor/glightbox/css/glightbox.min.css"
         rel="stylesheet"
       />
       <link
-        href="http://localhost:3000/assets/vendor/swiper/swiper-bundle.min.css"
+        href="https://portfolio-one-omega-48.vercel.app/assets/vendor/swiper/swiper-bundle.min.css"
         rel="stylesheet"
       />
 
       <link
-        href="http://localhost:3000/assets/css/style.css"
+        href="https://portfolio-one-omega-48.vercel.app/assets/css/style.css"
         rel="stylesheet"
       />
 
@@ -62,7 +65,7 @@ const Home = ({ blog }) => {
           <div className="d-flex flex-column">
             <div className="profile">
               <img
-                src="http://localhost:3000/assets/img/profile-img.jpg"
+                src="https://portfolio-one-omega-48.vercel.app/assets/img/profile-img.jpg"
                 alt=""
                 className="img-fluid rounded-circle"
               />
@@ -70,10 +73,16 @@ const Home = ({ blog }) => {
                 <a href="#">Akhil Gaddam</a>
               </h1>
               <div className="social-links mt-3 text-center">
-                <a href="https://www.facebook.com/akhil.gaddam.96155?mibextid=ZbWKwL" className="facebook">
+                <a
+                  href="https://www.facebook.com/akhil.gaddam.96155?mibextid=ZbWKwL"
+                  className="facebook"
+                >
                   <i className="bx bxl-facebook"></i>
                 </a>
-                <a href="https://instagram.com/akhil.gaddam.96155?igshid=OGQ5ZDc2ODk2ZA==" className="instagram">
+                <a
+                  href="https://instagram.com/akhil.gaddam.96155?igshid=OGQ5ZDc2ODk2ZA=="
+                  className="instagram"
+                >
                   <i className="bx bxl-instagram"></i>
                 </a>
                 <a
@@ -146,7 +155,7 @@ const Home = ({ blog }) => {
               <div className="row">
                 <div className="col-lg-4" data-aos="fade-right">
                   <img
-                    src="http://localhost:3000/assets/img/profile-img.jpg"
+                    src="https://portfolio-one-omega-48.vercel.app/assets/img/profile-img.jpg"
                     className="img-fluid"
                     alt=""
                   />
@@ -488,7 +497,7 @@ const Home = ({ blog }) => {
                       <h4>Call:</h4>
                       <p>+91 9390667322</p>
                     </div>
-                    
+
                     <iframe
                       src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3863.494069453972!2d78.82670617481608!3d14.456295580593917!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bb372722dcc351d%3A0x4de1bec0c0927f47!2sLIC%20Office%20-%20KADAPA!5e0!3m2!1sen!2sin!4v1698336651878!5m2!1sen!2sin"
                       frameborder={0}
